@@ -132,6 +132,10 @@ a {
   background-color: #484848;
 }
 
+#header span {
+  color: #FFFFFF;
+}
+
 .flex-box {
   display: -webkit-flex;
   display: flex;
@@ -219,3 +223,4 @@ span {
     display: block;
   }
 }
+
