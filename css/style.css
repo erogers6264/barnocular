@@ -11,7 +11,7 @@ h5,
 h6 {
   padding:0;
   margin:0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 .clear-fix {
@@ -26,7 +26,7 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: #23C5F5;
   line-height: 48px;
   display: inline;
 }
@@ -100,16 +100,16 @@ a {
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: #23C5F5;
   display: none;
 }
 
 .orange {
-  background-color: #f5ae23;
+  background-color: #23C5F5;
 }
 
 .orange-text {
-  color: #f5ae23;
+  color: #23C5F5;
 }
 
 .white-text {
@@ -134,6 +134,7 @@ a {
 
 #header span {
   color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
 }
 
 .flex-box {
