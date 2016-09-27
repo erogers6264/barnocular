@@ -13,6 +13,32 @@ var bio = {
 	"picUrl": picUrl
 };
 
+var education = {
+	"schools": [
+		{
+			"name": "University of Arizona",
+			"city": "Tucson, AZ, US",
+			"degree": "Bachelors",
+			"major": ["German Studies", "Linguistics"],
+			"gradYear": "2012"
+		},
+		{
+			"name": "University of Arizona",
+			"city": "Tucson, AZ, US",
+			"degree": "Masters",
+			"major": ["German Studies"],
+			"gradYear": "2015"
+		},
+		{
+			"name": "Udacity",
+			"city": "Mountain View, CA, US",
+			"degree": "",
+			"major": ["Fullstack Web Development"],
+			"gradYear": "2016"
+		}
+	]
+};
+
 var skills = ["programming", "teaching", "python", "SQL & noSQL", "JS", "CSS3", "HTML5", "responsive design", "Google App Engine"];
 
 var formattedName = HTMLheaderName.replace("%data%", name);
