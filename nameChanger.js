@@ -1,14 +1,16 @@
-var name = "AlbERt EINstEiN";
+var name = "ethan rogers";
 
-function nameChanger(oldName) {
-    var finalName = oldName;
-    // Your code goes here!
+function toTitleCase(str)
+{
+    return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+}
 
-    finalName.lower()
+function nameChanger (name) {
+	var spl = finalName.toLowerCase().split(" ");
+	first = toTitleCase(spl[0]);
+	last = spl[1].toUpperCase();
+	var finalName = first + ' ' + last;
+	return final;
+}
 
-    // Don't delete this line!
-    return finalName;
-};
-
-// Did your code work? The line below will tell you!
 console.log(nameChanger(name));
