@@ -49,40 +49,41 @@ var education = {
 var employment = {
 	"workplaces": [
 		{
-		"position": "host",
-		"employer": "Native Grill & Wings",
-		"yearsWorked": 1,
-		"city": "Tucson, AZ, US",
-		"startDate": "September 2016",
-		"endDate": undefined,
-		"supervisorName": "Chad Petri"
+			"position": "host",
+			"employer": "Native Grill & Wings",
+			"yearsWorked": 1,
+			"city": "Tucson, AZ, US",
+			"startDate": "September 2016",
+			"endDate": undefined,
+			"supervisorName": "Chad Petri"
 		},
 		{
-		"position": "host",
-		"employer": "Native Grill & Wings",
-		"yearsWorked": 1,
-		"city": "Tucson, AZ, US",
-		"startDate": "September 2016",
-		"endDate": undefined,
-		"supervisorName": "Chad Petri"
+			"position": "host",
+			"employer": "Native Grill & Wings",
+			"yearsWorked": 1,
+			"city": "Tucson, AZ, US",
+			"startDate": "September 2016",
+			"endDate": undefined,
+			"supervisorName": "Chad Petri"
 		},
 		{
-		"position": "host",
-		"employer": "Native Grill & Wings",
-		"yearsWorked": 1,
-		"city": "Tucson, AZ, US",
-		"startDate": "September 2016",
-		"endDate": undefined,
-		"supervisorName": "Chad Petri"
+			"position": "host",
+			"employer": "Native Grill & Wings",
+			"yearsWorked": 1,
+			"city": "Tucson, AZ, US",
+			"startDate": "September 2016",
+			"endDate": undefined,
+			"supervisorName": "Chad Petri"
 		},
 		{
-		"position": "host",
-		"employer": "Native Grill & Wings",
-		"yearsWorked": 1,
-		"city": "Tucson, AZ, US",
-		"startDate": "September 2016",
-		"endDate": undefined,
-		"supervisorName": "Chad Petri"
+			"position": "host",
+			"employer": "Native Grill & Wings",
+			"yearsWorked": 1,
+			"city": "Tucson, AZ, US",
+			"startDate": "September 2016",
+			"endDate": undefined,
+			"supervisorName": "Chad Petri"
 		},
 	]
 };
+
