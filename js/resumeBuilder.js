@@ -1,93 +1,88 @@
+// This file contains the JS objects whose data will be used to populate the
+// resume website
+
 var bio = {
     "name": "M. Ethan Rogers",
     "role": "Fullstack Web Developer",
-    "contactInfo": {
+    "contacts": {
+        "mobile": "1.915.637.8415",
         "email": "erogers6264@gmail.com",
-        "phone": "(915) 637-8415"
+        "github": "https://www.github.com/erogers6264",
+        "twitter": null,
+        "location": "Tucson, AZ, US"
     },
-    "picUrl": "images/me.jpg",
-    "skills": ["programming", "teaching", "python", "relational databases",
-            "nonrelational databases", "JS", "CSS3", "HTML5", "responsive design",
-            "Google App Engine"]
-};
-
-var projects = {
-    "personal": [
-        {
-            "title": "menumoo",
-            "toolsUsed": ["Flask", "Python", "Postgresql", "SQLAlchemy", "Skeleton"]
-        }
-    ]
+    "welcomeMessage": "",
+    "skills": [],
+    "biopic": "url",
+    display: function display() {
+        // body...
+    }
 };
 
 var education = {
     "schools": [
         {
-            "schoolName": "University of Arizona",
-            "city": "Tucson, AZ, US",
+            "name": "University of Arizona",
+            "location": "Tucson, AZ, US",
             "degree": "Bachelors",
-            "major": ["German Studies", "Linguistics"],
-            "gradYear": "2012"
+            "majors": ["German Studies", "Linguistics", "Spanish"]
+            "dates": "2008-2012",
+            "url": "http://www.arizona.edu"
         },
         {
-            "schoolName": "University of Arizona",
-            "city": "Tucson, AZ, US",
+            "name": "University of Arizona",
+            "location": "Tucson, AZ, US",
             "degree": "Masters",
-            "major": ["German Studies"],
-            "gradYear": "2015"
-        },
-        {
-            "schoolName": "Udacity",
-            "city": "Mountain View, CA, US",
-            "degree": "",
-            "major": ["Fullstack Web Development"],
-            "gradYear": "2016"
+            "majors": ["German Studies"]
+            "dates": "2013-2015",
+            "url": "http://www.arizona.edu"
         }
-    ]
+    ],
+    "onlineCourses": [
+        {
+            "title": "Fullstack Web Developer Nanodegree",
+            "school": "Udacity",
+            "dates": "2015-2016",
+            "url": "http://www.udacity.com"
+        }
+    ],
+    display: function display() {
+        // body...
+    }
 };
 
-var employment = {
-    "workplaces": [
+var work = {
+    "jobs": [
         {
-            "position": "host",
             "employer": "Native Grill & Wings",
-            "yearsWorked": 1,
-            "city": "Tucson, AZ, US",
-            "startDate": "September 2016",
-            "endDate": undefined,
-            "supervisorName": "Chad Petri"
-        },
-        {
-            "position": "host",
-            "employer": "Native Grill & Wings",
-            "yearsWorked": 1,
-            "city": "Tucson, AZ, US",
-            "startDate": "September 2016",
-            "endDate": undefined,
-            "supervisorName": "Chad Petri"
-        },
-        {
-            "position": "host",
-            "employer": "Native Grill & Wings",
-            "yearsWorked": 1,
-            "city": "Tucson, AZ, US",
-            "startDate": "September 2016",
-            "endDate": undefined,
-            "supervisorName": "Chad Petri"
-        },
-        {
-            "position": "host",
-            "employer": "Native Grill & Wings",
-            "yearsWorked": 1,
-            "city": "Tucson, AZ, US",
-            "startDate": "September 2016",
-            "endDate": undefined,
-            "supervisorName": "Chad Petri"
+            "title": "Host & Expo",
+            "location": "Tucson, AZ",
+            "dates": "in progress",
+            "description": "Provide an excellent first impression to guests, " +
+                    "explain the daily specials, and perform regular restaurant " +
+                    "tasks such as taking to-go orders and wiping down menus."
         }
-    ]
+    ],
+    display: function display() {
+        // body...
+    }
 };
 
+var project = {
+    "projects": [
+        {
+            "title": "menumoo",
+            "dates": "2015"
+            "description": "A RESTful way to manage restaurants and their menus."
+            "images": ["URLOLOLOL", "URLOLOLOL", "URLOLOLOL", "URLOLOLOL", "URLOLOLOL"]
+        }
+    ],
+    display: function display() {
+        // body...
+    }
+};
 
+// Begin the operations to append/prepend to the resume
 if (bio.skills.length !== 0) {
     $("#header").append(HTMLskillsStart);
     for (skill in bio.skills) {
