@@ -58,11 +58,101 @@ var work = {
             "title": "Host & Expo",
             "location": "Tucson, AZ",
             "dates": "in progress",
-            "description": "Provide an excellent first impression to guests, " +
-                    "explain the daily specials, and perform regular " +
-                    "restaurant tasks such as taking to-go orders and wiping " +
-                    "down menus."
+            "description": 'Provide an excellent first impression to guests,' +
+                    'explain the daily specials, and perform regular' +
+                    'restaurant tasks such as taking to-go orders and wiping' +
+                    'down menus.'
         }
+        {
+            "employer": "P.F. Changs China Bistro",
+            "title": "Server",
+            "location": "Tucson, AZ",
+            "dates": "2015-2016",
+            "description": 'Provide memorable and rapid service to multiple groups ' +
+                    'at tables. Perform normal restaurant duties such as seating, ' +
+                    'sweeping, clearing & wiping down tables, and delivering ' +
+                    'hot meals to guests.'
+        },
+        {
+            "employer": "Universität Leipzig",
+            "title": "German Instructor",
+            "location": "Leipzig, Germany",
+            "dates": "Summer 2015",
+            "description": 'Provide memorable and rapid service to multiple groups ' +
+                    'at tables. Perform normal restaurant duties such as seating, ' +
+                    'sweeping, clearing & wiping down tables, and delivering ' +
+                    'hot meals to guests.'
+        },
+        {
+            "employer": "Universität Leipzig",
+            "title": "German Instructor",
+            "location": "Leipzig, Germany",
+            "dates": "Summer 2014",
+            "description": 'Provide memorable and rapid service to multiple groups ' +
+                    'at tables. Perform normal restaurant duties such as seating, ' +
+                    'sweeping, clearing & wiping down tables, and delivering ' +
+                    'hot meals to guests.'
+        },
+        {
+            "employer": "University of Arizona",
+            "title": "German Instructor",
+            "location": "Tucson, AZ",
+            "dates": "2013-2015",
+            "description": 'Provide memorable and rapid service to multiple groups ' +
+                    'at tables. Perform normal restaurant duties such as seating, ' +
+                    'sweeping, clearing & wiping down tables, and delivering ' +
+                    'hot meals to guests.'
+        },
+        {
+            "employer": "Native Grill & Wings",
+            "title": "Host & Expo",
+            "location": "Tucson, AZ",
+            "dates": "in progress",
+            "description": 'Provide memorable and rapid service to multiple groups ' +
+                    'at tables. Perform normal restaurant duties such as seating, ' +
+                    'sweeping, clearing & wiping down tables, and delivering ' +
+                    'hot meals to guests.'
+        },
+        {
+            "employer": "Native Grill & Wings",
+            "title": "Host & Expo",
+            "location": "Tucson, AZ",
+            "dates": "in progress",
+            "description": 'Provide memorable and rapid service to multiple groups ' +
+                    'at tables. Perform normal restaurant duties such as seating, ' +
+                    'sweeping, clearing & wiping down tables, and delivering ' +
+                    'hot meals to guests.'
+        },
+        {
+            "employer": "Native Grill & Wings",
+            "title": "Host & Expo",
+            "location": "Tucson, AZ",
+            "dates": "in progress",
+            "description": 'Provide memorable and rapid service to multiple groups ' +
+                    'at tables. Perform normal restaurant duties such as seating, ' +
+                    'sweeping, clearing & wiping down tables, and delivering ' +
+                    'hot meals to guests.'
+        },
+        {
+            "employer": "Native Grill & Wings",
+            "title": "Host & Expo",
+            "location": "Tucson, AZ",
+            "dates": "in progress",
+            "description": 'Provide memorable and rapid service to multiple groups ' +
+                    'at tables. Perform normal restaurant duties such as seating, ' +
+                    'sweeping, clearing & wiping down tables, and delivering ' +
+                    'hot meals to guests.'
+        },
+        {
+            "employer": "Native Grill & Wings",
+            "title": "Host & Expo",
+            "location": "Tucson, AZ",
+            "dates": "in progress",
+            "description": 'Provide memorable and rapid service to multiple groups ' +
+                    'at tables. Perform normal restaurant duties such as seating, ' +
+                    'sweeping, clearing & wiping down tables, and delivering ' +
+                    'hot meals to guests.'
+        },
     ],
     display: function display() {
         // body...
@@ -74,10 +164,10 @@ var project = {
         {
             "title": "menumoo",
             "dates": "2015"
-            "description": "A RESTful way to manage restaurants and their menus."
-            "images": ["URLOLOLOL", "URLOLOLOL", "URLOLOLOL", "URLOLOLOL", "URLOLOLOL"]
-        }
-    ],
+            "description": 'Provide memorable and rapid service to multiple groups ' +
+                    'at tables. Perform normal restaurant duties such as seating, ' +
+                    'sweeping, clearing & wiping down tables, and delivering ' +
+                    'hot meals to guests.'
     display: function display() {
         // body...
     }
