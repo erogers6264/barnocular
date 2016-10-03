@@ -59,8 +59,9 @@ var work = {
             "location": "Tucson, AZ",
             "dates": "in progress",
             "description": "Provide an excellent first impression to guests, " +
-                    "explain the daily specials, and perform regular restaurant " +
-                    "tasks such as taking to-go orders and wiping down menus."
+                    "explain the daily specials, and perform regular " +
+                    "restaurant tasks such as taking to-go orders and wiping " +
+                    "down menus."
         }
     ],
     display: function display() {
