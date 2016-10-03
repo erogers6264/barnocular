@@ -75,6 +75,13 @@ var work = {
             "description": "Serve Asian-inspired cuisine in a vibrant bistro atmosphere. Welcome and engage guests. Keep things organized and clean. Provide exceptional service to every guest."
         },
         {
+            "employer": "SCAD Media",
+            "title": "Social Media Manager",
+            "location": "Tucson, AZ",
+            "dates": "2015",
+            "description": "Manage social media posts for several local Tucson businesses. Leverage the Drupal CMS to manage several websites. Occasionally create blog content for the University of Arizona Office of the CIO."
+        },
+        {
             "employer": "Universität Leipzig",
             "title": "German Instructor",
             "location": "Leipzig, Germany",
