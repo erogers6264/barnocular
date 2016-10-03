@@ -104,50 +104,90 @@ var work = {
                     'hot meals to guests.'
         },
         {
-            "employer": "Native Grill & Wings",
-            "title": "Host & Expo",
+            "employer": "Olive Garden",
+            "title": "Server",
             "location": "Tucson, AZ",
-            "dates": "in progress",
+            "dates": "2013",
             "description": 'Provide memorable and rapid service to multiple groups ' +
                     'at tables. Perform normal restaurant duties such as seating, ' +
                     'sweeping, clearing & wiping down tables, and delivering ' +
                     'hot meals to guests.'
         },
         {
-            "employer": "Native Grill & Wings",
-            "title": "Host & Expo",
+            "employer": "Jimmy John's Subs",
+            "title": "Delivery Driver",
             "location": "Tucson, AZ",
-            "dates": "in progress",
+            "dates": "2013",
             "description": 'Provide memorable and rapid service to multiple groups ' +
                     'at tables. Perform normal restaurant duties such as seating, ' +
                     'sweeping, clearing & wiping down tables, and delivering ' +
                     'hot meals to guests.'
         },
         {
-            "employer": "Native Grill & Wings",
-            "title": "Host & Expo",
+            "employer": "Intuit Inc.",
+            "title": "Technical Support Representative",
             "location": "Tucson, AZ",
-            "dates": "in progress",
+            "dates": "2012-2013",
             "description": 'Provide memorable and rapid service to multiple groups ' +
                     'at tables. Perform normal restaurant duties such as seating, ' +
                     'sweeping, clearing & wiping down tables, and delivering ' +
                     'hot meals to guests.'
         },
         {
-            "employer": "Native Grill & Wings",
-            "title": "Host & Expo",
+            "employer": "University of Arizona Residence Life",
+            "title": "Resident Assistant",
             "location": "Tucson, AZ",
-            "dates": "in progress",
+            "dates": "2010-2012",
             "description": 'Provide memorable and rapid service to multiple groups ' +
                     'at tables. Perform normal restaurant duties such as seating, ' +
                     'sweeping, clearing & wiping down tables, and delivering ' +
                     'hot meals to guests.'
         },
         {
-            "employer": "Native Grill & Wings",
-            "title": "Host & Expo",
+            "employer": "FUEL Modern Eatery",
+            "title": "Barista",
             "location": "Tucson, AZ",
-            "dates": "in progress",
+            "dates": "2010-2012",
+            "description": 'Provide memorable and rapid service to multiple groups ' +
+                    'at tables. Perform normal restaurant duties such as seating, ' +
+                    'sweeping, clearing & wiping down tables, and delivering ' +
+                    'hot meals to guests.'
+        },
+        {
+            "employer": "Target Corporation",
+            "title": "Jewelry & Intimates Specialist",
+            "location": "Tucson, AZ",
+            "dates": "Summer 2010",
+            "description": 'Provide memorable and rapid service to multiple groups ' +
+                    'at tables. Perform normal restaurant duties such as seating, ' +
+                    'sweeping, clearing & wiping down tables, and delivering ' +
+                    'hot meals to guests.'
+        },
+        {
+            "employer": "Core Eatery",
+            "title": "Salad Maker",
+            "location": "Tucson, AZ",
+            "dates": "2009",
+            "description": 'Provide memorable and rapid service to multiple groups ' +
+                    'at tables. Perform normal restaurant duties such as seating, ' +
+                    'sweeping, clearing & wiping down tables, and delivering ' +
+                    'hot meals to guests.'
+        },
+        {
+            "employer": "IHOP Restaurant",
+            "title": "Server",
+            "location": "Mesa, AZ",
+            "dates": "2005-2008",
+            "description": 'Provide memorable and rapid service to multiple groups ' +
+                    'at tables. Perform normal restaurant duties such as seating, ' +
+                    'sweeping, clearing & wiping down tables, and delivering ' +
+                    'hot meals to guests.'
+        },
+        {
+            "employer": "Petsmart",
+            "title": "Team Associate",
+            "location": "Gilbert, AZ",
+            "dates": "2006",
             "description": 'Provide memorable and rapid service to multiple groups ' +
                     'at tables. Perform normal restaurant duties such as seating, ' +
                     'sweeping, clearing & wiping down tables, and delivering ' +
