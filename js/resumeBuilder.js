@@ -62,7 +62,17 @@ var work = {
                     'explain the daily specials, and perform regular' +
                     'restaurant tasks such as taking to-go orders and wiping' +
                     'down menus.'
-        }
+        },
+        {
+            "employer": "Walden Grove High School/Sahuarita ",
+            "title": "Long-term Substitute German Teacher",
+            "location": "Sahuarita, AZ",
+            "dates": "2016",
+            "description": 'Provide an excellent first impression to guests,' +
+                    'explain the daily specials, and perform regular' +
+                    'restaurant tasks such as taking to-go orders and wiping' +
+                    'down menus.'
+        },
         {
             "employer": "P.F. Changs China Bistro",
             "title": "Server",
@@ -175,7 +185,7 @@ var work = {
         },
         {
             "employer": "IHOP Restaurant",
-            "title": "Server",
+            "title": "Lead Server & Trainer",
             "location": "Mesa, AZ",
             "dates": "2005-2008",
             "description": 'Provide memorable and rapid service to multiple groups ' +
