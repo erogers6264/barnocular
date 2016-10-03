@@ -11,8 +11,8 @@ var bio = {
         "twitter": null,
         "location": "Tucson, AZ, US"
     },
-    "welcomeMessage": "",
-    "skills": [],
+    "welcomeMessage": "Self-taught backend web developer",
+    "skills": ["Python", "Google App Engine", "HTML", "CSS", "Flask", "SQL", "Relational Databases", "mySQL", "PostgreSQL", "SSH", "Linux", "Apache", "Git/GitHub", "Javascript", "JQuery"],
     "biopic": "url",
     display: function display() {
         // body...
@@ -127,7 +127,7 @@ var work = {
             "employer": "Petite Pea Catering on 6th",
             "title": "Chef & Catering Assistant",
             "location": "Tucson, AZ",
-            "dates": "2010-2012",
+            "dates": "2011",
             "description": "Cook dishes for events. Discuss requirements with clients, create menus, prepare food, coordinate other cook staff, store food properly, and respect food safety standards."
         },
         {
@@ -176,10 +176,28 @@ var project = {
         {
             "title": "menumoo",
             "dates": "2015-2016"
-            "description": 'Provide memorable and rapid service to multiple groups ' +
-                    'at tables. Perform normal restaurant duties such as seating, ' +
-                    'sweeping, clearing & wiping down tables, and delivering ' +
-                    'hot meals to guests.'
+            "description": "Developed a content management system using the Flask framework in Python. Authentication is provided via OAuth and all data is stored within a PostgreSQL database.",
+            "images": []
+        },
+        {
+            "title": "dot-n-box",
+            "dates": "2016"
+            "description": "Implemented a scalable hangman game as an API with endpoints that allow anyone to develop a front-end for the game.",
+            "images": []
+        },
+        {
+            "title": "all-play",
+            "dates": "2015"
+            "description": "Built a PostgreSQL relational database scheme to store the results of a game tournament. Also provided a number of queries to efficiently report the results of the tournament and determine the winner.",
+            "images": []
+        },
+        {
+            "title": "menumoo-server-config",
+            "dates": "2015-2016"
+            "description": "Installed and configured all required software to turn a baseline Ubuntu Amazon Web Services server into a fully functional web application server, including Apache Web Server and PostgreSQL database server.",
+            "images": []
+        }
+    ],
     display: function display() {
         // body...
     }
