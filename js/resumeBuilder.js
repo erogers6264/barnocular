@@ -25,7 +25,7 @@ var education = {
             "name": "University of Arizona",
             "location": "Tucson, AZ, US",
             "degree": "Bachelors",
-            "majors": ["German Studies", "Linguistics", "Spanish"]
+            "majors": ["German Studies", "Linguistics", "Spanish"],
             "dates": "2008-2012",
             "url": "http://www.arizona.edu"
         },
@@ -33,7 +33,7 @@ var education = {
             "name": "University of Arizona",
             "location": "Tucson, AZ, US",
             "degree": "Masters",
-            "majors": ["German Studies"]
+            "majors": ["German Studies"],
             "dates": "2013-2015",
             "url": "http://www.arizona.edu"
         }
@@ -59,28 +59,28 @@ var work = {
                 "title": "Long-term Substitute German Teacher",
                 "location": "Sahuarita, AZ",
                 "dates": "2016",
-                "description": "Act as a stand-in instructor for four sections of German 1. Responsible for all planning, instruction and assessment. Show students they can also learn outside when the weather permits."
+                "description": "Acted as a stand-in instructor for four sections of German 1. Responsible for all planning, instruction and assessment. Showed students that they can also learn outside when the weather permits."
             },
             {
                 "employer": "SCAD Media",
                 "title": "Social Media Manager",
                 "location": "Tucson, AZ",
                 "dates": "2015",
-                "description": "Manage social media posts for several local Tucson businesses. Leverage the Drupal CMS to manage several websites. Occasionally create blog content for the University of Arizona Office of the CIO."
+                "description": "Managed social media posts for several local Tucson businesses. Utilized the Drupal CMS to manage several websites. Occasionally created blog posts for the University of Arizona Office of the CIO."
             },
             {
                 "employer": "Universität Leipzig",
                 "title": "German Instructor",
                 "location": "Leipzig, Germany",
                 "dates": "Summer 2014 & Summer 2015",
-                "description": "Teach a section of intensive intermediate German for a group of undergraduate study abroad participants. Responsible for all instruction and assessment."
+                "description": "Taught a section of intensive intermediate German for a group of undergraduate study abroad participants. Responsible for all instruction and assessment."
             },
             {
                 "employer": "University of Arizona",
                 "title": "German Instructor",
                 "location": "Tucson, AZ",
                 "dates": "2013-2015",
-                "description": "Teach multiple sections of university level German 101, 102, 201, and 202 over four semesters. Responsible for all planning, instruction and assessment. Help make our language curriculum more awesome. Top ratings on ratemyprofessors."
+                "description": "Taught multiple sections of university level German 101, 102, 201, and 202 over four semesters. Responsible for all planning, instruction and assessment. Help make our language curriculum more awesome. Received top ratings on ratemyprofessors."
             },
             {
                 "employer": "Intuit Inc.",
@@ -95,9 +95,16 @@ var work = {
                 "location": "Tucson, AZ",
                 "dates": "2010-2012",
                 "description": "Facilitate the social, academic, and personal adjustment of students to the residence halls and University. Develop a sense of community among residents as members of a floor, residents of a hall, and active participants in the residence life system."
+            },
+            {
+                "employer": "University of Arizona Office of LGBTQ Affairs",
+                "title": "Intern at ASUA Pride Alliance",
+                "location": "Tucson, AZ",
+                "dates": "2010",
+                "description": ""
             }
         ],
-        "serviceIndustry": [
+        "howToStayAlive": [
             {
                 "employer": "Native Grill & Wings",
                 "title": "Host & Expo",
@@ -152,7 +159,7 @@ var work = {
                 "title": "Salad Maker",
                 "location": "Tucson, AZ",
                 "dates": "2009",
-                "description": "Prepare salads and rice bowls for members of the Campus community. Clean. Accept payments and make change."
+                "description": "Prepared salads and rice bowls for members of the Campus community. Cleaned. Accept payments and make change."
             },
             {
                 "employer": "IHOP Restaurant",
