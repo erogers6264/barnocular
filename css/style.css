@@ -169,13 +169,19 @@ ul {
 }
 
 img {
-  padding: 10px;
+  /*Flip*/
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   filter: FlipH;
   -ms-filter: "FlipH";
+  
+  /*Grayscale*/
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+
+  padding: 10px;
 }
 
 span {
