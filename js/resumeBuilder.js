@@ -8,12 +8,12 @@ var bio = {
         "mobile": "1.915.637.8415",
         "email": "erogers6264@gmail.com",
         "github": "https://www.github.com/erogers6264",
-        "twitter": null,
+        "twitter": "https://www.twitter.com/redothedo",
         "location": "Tucson, AZ, US"
     },
     "welcomeMessage": "Self-taught backend web developer",
     "skills": ["Python", "Google App Engine", "HTML", "CSS", "Flask", "SQL", "Relational Databases", "mySQL", "PostgreSQL", "SSH", "Linux", "Apache", "Git/GitHub", "Javascript", "JQuery", "Vagrant"],
-    "biopic": "url"
+    "biopic": "images/me.jpg"
 };
 
 var education = {
@@ -210,18 +210,60 @@ var project = {
 //     }
 // }
 
+var formattedName = HTMLheaderName.replace("%data%", bio.name);
+var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
+var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
+var formattedEmail = HTMLemail.replace(new RegExp("%data%", "g"), bio.contacts.email);
+var formattedTwitter = HTMLtwitter.replace(new RegExp("%data%", "g"), bio.contacts.twitter); new RegExp("/", "g")
+var formattedGithub = HTMLgithub.replace(new RegExp("%data%", "g"), bio.contacts.github);
+var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
+var formattedBioPic = HTMLbioPic.replace("%data%", bio.biopic);
+var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
+var formattedSkills = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
 
+
+$("#header").append(formattedName);
+$("#header").append(formattedRole);
+$("#topContacts").append(formattedMobile);
+$("#topContacts").append(formattedEmail);
+$("#topContacts").append(formattedTwitter);
+$("#topContacts").append(formattedGithub);
+$("#topContacts").append(formattedLocation);
+$("#header").append(formattedBioPic);
+$("#header").append(formattedWelcomeMsg);
+$("#header").append(HTMLskillsStart);
+$("#header").append(formattedSkills);
 
 for (job in work.jobs.career) {
     $("#workExperience").append(HTMLworkStart);
+
     var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs.career[job].employer);
     var formattedTitle = HTMLworkTitle.replace("%data%", work.jobs.career[job].title);
     $(".work-entry:last").append(formattedEmployer + formattedTitle);
+
+    var formattedDates = HTMLworkDates.replace("%data%", work.jobs.career[job].dates)
+    $(".work-entry:last").append(formattedDates);
+
+    var formattedLocation = HTMLworkLocation.replace("%data%", work.jobs.career[job].location)
+    $(".work-entry:last").append(formattedLocation);
+
+    var formattedDescription = HTMLworkDescription.replace("%data%", work.jobs.career[job].description)
+    $(".work-entry:last").append(formattedDescription);
 }
 
 for (job in work.jobs.howToStayAlive) {
     $("#workExperience").append(HTMLworkStart);
+
     var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs.howToStayAlive[job].employer);
     var formattedTitle = HTMLworkTitle.replace("%data%", work.jobs.howToStayAlive[job].title);
     $(".work-entry:last").append(formattedEmployer + formattedTitle);
+
+    var formattedDates = HTMLworkDates.replace("%data%", work.jobs.howToStayAlive[job].dates)
+    $(".work-entry:last").append(formattedDates);
+
+    var formattedLocation = HTMLworkLocation.replace("%data%", work.jobs.howToStayAlive[job].location)
+    $(".work-entry:last").append(formattedLocation);
+
+    var formattedDescription = HTMLworkDescription.replace("%data%", work.jobs.howToStayAlive[job].description)
+    $(".work-entry:last").append(formattedDescription);
 }
