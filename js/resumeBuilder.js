@@ -12,11 +12,8 @@ var bio = {
         "location": "Tucson, AZ, US"
     },
     "welcomeMessage": "Self-taught backend web developer",
-    "skills": ["Python", "Google App Engine", "HTML", "CSS", "Flask", "SQL", "Relational Databases", "mySQL", "PostgreSQL", "SSH", "Linux", "Apache", "Git/GitHub", "Javascript", "JQuery"],
-    "biopic": "url",
-    display: function display() {
-        // body...
-    }
+    "skills": ["Python", "Google App Engine", "HTML", "CSS", "Flask", "SQL", "Relational Databases", "mySQL", "PostgreSQL", "SSH", "Linux", "Apache", "Git/GitHub", "Javascript", "JQuery", "Vagrant"],
+    "biopic": "url"
 };
 
 var education = {
@@ -45,14 +42,11 @@ var education = {
             "dates": "2015-2016",
             "url": "http://www.udacity.com"
         }
-    ],
-    display: function display() {
-        // body...
-    }
+    ]
 };
 
 var work = {
-    "jobs": [
+    "jobs": {
         "career": [
             {
                 "employer": "Walden Grove High School/Sahuarita School District",
@@ -176,48 +170,58 @@ var work = {
                 "description": "Greet customers as they walk in, provide solutions and answers to their questions, and make sure they walk out with everything they need."
             }
         ] // End serviceIndustry
-    ], // End jobs
-    display: function display() {
-        // body...
-    }
+    } // End jobs
 };
 
 var project = {
     "projects": [
         {
             "title": "menumoo",
-            "dates": "2015-2016"
+            "dates": "2015-2016",
             "description": "Developed a content management system using the Flask framework in Python. Authentication is provided via OAuth and all data is stored within a PostgreSQL database.",
             "images": []
         },
         {
             "title": "dot-n-box",
-            "dates": "2016"
+            "dates": "2016",
             "description": "Implemented a scalable hangman game as an API with endpoints that allow anyone to develop a front-end for the game.",
             "images": []
         },
         {
             "title": "all-play",
-            "dates": "2015"
+            "dates": "2015",
             "description": "Built a PostgreSQL relational database scheme to store the results of a game tournament. Also provided a number of queries to efficiently report the results of the tournament and determine the winner.",
             "images": []
         },
         {
             "title": "menumoo-server-config",
-            "dates": "2015-2016"
+            "dates": "2015-2016",
             "description": "Installed and configured all required software to turn a baseline Ubuntu Amazon Web Services server into a fully functional web application server, including Apache Web Server and PostgreSQL database server.",
             "images": []
         }
-    ],
-    display: function display() {
-        // body...
-    }
+    ]
 };
 
 // Begin the operations to append/prepend to the resume
-if (bio.skills.length !== 0) {
-    $("#header").append(HTMLskillsStart);
-    for (skill in bio.skills) {
-        $("#skills").append(HTMLskills.replace('%data%', bio.skills[skill]));
-    }
+// if (bio.skills.length !== 0) {
+//     $("#header").append(HTMLskillsStart);
+//     for (skill in bio.skills) {
+//         $("#skills").append(HTMLskills.replace('%data%', bio.skills[skill]));
+//     }
+// }
+
+
+
+for (job in work.jobs.career) {
+    $("#workExperience").append(HTMLworkStart);
+    var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs.career[job].employer);
+    var formattedTitle = HTMLworkTitle.replace("%data%", work.jobs.career[job].title);
+    $(".work-entry:last").append(formattedEmployer + formattedTitle);
+}
+
+for (job in work.jobs.howToStayAlive) {
+    $("#workExperience").append(HTMLworkStart);
+    var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs.howToStayAlive[job].employer);
+    var formattedTitle = HTMLworkTitle.replace("%data%", work.jobs.howToStayAlive[job].title);
+    $(".work-entry:last").append(formattedEmployer + formattedTitle);
 }
