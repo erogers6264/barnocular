@@ -7,12 +7,12 @@ var bio = {
     "contacts": {
         "mobile": "1.915.637.8415",
         "email": "erogers6264@gmail.com",
-        "github": "https://www.github.com/erogers6264",
-        "twitter": "https://www.twitter.com/redothedo",
+        "github": "erogers6264",
+        "twitter": "redothedo",
         "location": "Tucson, AZ, US"
     },
-    "welcomeMessage": "Self-taught backend web developer",
-    "skills": ["Python", "Google App Engine", "HTML", "CSS", "Flask", "SQL", "Relational Databases", "mySQL", "PostgreSQL", "SSH", "Linux", "Apache", "Git/GitHub", "Javascript", "JQuery", "Vagrant"],
+    "welcomeMessage": "I'm a tenacious MA graduate eager to use my spectrum of education & experience to build snappy web apps.",
+    "skills": ["Python", "Linux", "Flask", "CSS", "HTML", "Javascript", "Relational Databases"],
     "biopic": "images/me.jpg"
 };
 
@@ -205,34 +205,35 @@ var project = {
 // Begin the operations to append/prepend to the resume
 // if (bio.skills.length !== 0) {
 //     $("#header").append(HTMLskillsStart);
-//     for (skill in bio.skills) {
-//         $("#skills").append(HTMLskills.replace('%data%', bio.skills[skill]));
-//     }
 // }
 
 var formattedName = HTMLheaderName.replace("%data%", bio.name);
+$("#header").append(formattedName);
 var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
+$("#header").append(formattedRole);
 var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
+$("#topContacts").append(formattedMobile);
 var formattedEmail = HTMLemail.replace(new RegExp("%data%", "g"), bio.contacts.email);
-var formattedTwitter = HTMLtwitter.replace(new RegExp("%data%", "g"), bio.contacts.twitter); new RegExp("/", "g")
+$("#topContacts").append(formattedEmail);
+var formattedTwitter = HTMLtwitter.replace(new RegExp("%data%", "g"), bio.contacts.twitter);
+$("#topContacts").append(formattedTwitter);
 var formattedGithub = HTMLgithub.replace(new RegExp("%data%", "g"), bio.contacts.github);
+$("#topContacts").append(formattedGithub);
 var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
+$("#topContacts").append(formattedLocation);
 var formattedBioPic = HTMLbioPic.replace("%data%", bio.biopic);
+$("#header").append(formattedBioPic);
 var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
 var formattedSkills = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
-
-
-$("#header").append(formattedName);
-$("#header").append(formattedRole);
-$("#topContacts").append(formattedMobile);
-$("#topContacts").append(formattedEmail);
-$("#topContacts").append(formattedTwitter);
-$("#topContacts").append(formattedGithub);
-$("#topContacts").append(formattedLocation);
-$("#header").append(formattedBioPic);
 $("#header").append(formattedWelcomeMsg);
+
+
 $("#header").append(HTMLskillsStart);
-$("#header").append(formattedSkills);
+for (var i = 0; i < bio.skills.length; i++) {
+    $("#skills").append(HTMLskills.replace('%data%', bio.skills[i]));
+}
+
+
 
 for (job in work.jobs.career) {
     $("#workExperience").append(HTMLworkStart);
