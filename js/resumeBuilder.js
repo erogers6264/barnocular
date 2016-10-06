@@ -202,11 +202,6 @@ var project = {
     ]
 };
 
-// Begin the operations to append/prepend to the resume
-// if (bio.skills.length !== 0) {
-//     $("#header").append(HTMLskillsStart);
-// }
-
 var formattedName = HTMLheaderName.replace("%data%", bio.name);
 $("#header").append(formattedName);
 var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
