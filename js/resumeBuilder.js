@@ -239,3 +239,17 @@ var project = {
 
 bio.display();
 work.display();
+
+$(document).click(function(loc) {
+    logClicks(loc.pageX, loc.pageY);
+});
+
+function locationizer(work_obj) {
+    var locations = [];
+    for (var job = 0; job < work.jobs.length; job++) {
+        locations.push(work.jobs[job].location);
+    }
+    return locations;
+}
+
+console.log(locationizer(work));
