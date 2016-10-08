@@ -246,8 +246,8 @@ $(document).click(function(loc) {
 
 function locationizer(work_obj) {
     var locations = [];
-    for (var job = 0; job < work.jobs.length; job++) {
-        locations.push(work.jobs[job].location);
+    for (var job = 0; job < work_obj.jobs.length; job++) {
+        locations.push(work_obj.jobs[job].location);
     }
     return locations;
 }
