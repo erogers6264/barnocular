@@ -41,7 +41,6 @@ var bio = {
     }
 };
 
-
 var education = {
     "schools": [
         {
@@ -196,17 +195,13 @@ var work = {
     display: function () {
         for (var job = 0; job < this.jobs.length; job++) {
             $("#workExperience").append(HTMLworkStart);
-
             var formattedEmployer = HTMLworkEmployer.replace("%data%", this.jobs[job].employer);
             var formattedTitle = HTMLworkTitle.replace("%data%", this.jobs[job].title);
             $(".work-entry:last").append(formattedEmployer + formattedTitle);
-
             var formattedDates = HTMLworkDates.replace("%data%", this.jobs[job].dates)
             $(".work-entry:last").append(formattedDates);
-
             var formattedLocation = HTMLworkLocation.replace("%data%", this.jobs[job].location)
             $(".work-entry:last").append(formattedLocation);
-
             var formattedDescription = HTMLworkDescription.replace("%data%", this.jobs[job].description)
             $(".work-entry:last").append(formattedDescription);
         }
