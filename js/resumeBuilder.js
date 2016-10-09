@@ -46,17 +46,17 @@ var education = {
         {
             "name": "University of Arizona",
             "location": "Tucson, AZ, US",
-            "degree": "Bachelors",
-            "majors": ["German Studies", "Linguistics", "Spanish"],
-            "dates": "2008-2012",
+            "degree": "Masters",
+            "majors": ["German Studies"],
+            "dates": "2013-2015",
             "url": "http://www.arizona.edu"
         },
         {
             "name": "University of Arizona",
             "location": "Tucson, AZ, US",
-            "degree": "Masters",
-            "majors": ["German Studies"],
-            "dates": "2013-2015",
+            "degree": "Bachelors",
+            "majors": ["German Studies", "Linguistics", "Spanish"],
+            "dates": "2008-2012",
             "url": "http://www.arizona.edu"
         }
     ],
@@ -67,7 +67,24 @@ var education = {
             "dates": "2015-2016",
             "url": "http://www.udacity.com"
         }
-    ]
+    ],
+    display: function () {
+        for (var school = 0; school < this.schools.length; school++) {
+            $("#education").append(HTMLschoolStart);
+            var formattedName = HTMLschoolName.replace("%data%", this.schools[school].name);
+            var formattedDegree = HTMLschoolDegree.replace("%data%", this.schools[school].degree);
+            $(".education-entry:last").append(formattedName + formattedDegree);
+            var formattedDates = HTMLschoolDates.replace("%data%", this.schools[school].dates);
+            $(".education-entry:last").append(formattedDates);
+            var formattedLocation = HTMLschoolLocation.replace("%data%", this.schools[school].location);
+            $(".education-entry:last").append(formattedLocation);
+
+            for (var major = 0; major < this.schools[school].majors.length; major++) {
+                var formattedMajor = HTMLschoolMajor.replace("%data%", this.schools[school].majors[major]);
+                $(".education-entry:last").append(formattedMajor);
+            }
+        }
+    }
 };
 
 var work = {
@@ -198,11 +215,11 @@ var work = {
             var formattedEmployer = HTMLworkEmployer.replace("%data%", this.jobs[job].employer);
             var formattedTitle = HTMLworkTitle.replace("%data%", this.jobs[job].title);
             $(".work-entry:last").append(formattedEmployer + formattedTitle);
-            var formattedDates = HTMLworkDates.replace("%data%", this.jobs[job].dates)
+            var formattedDates = HTMLworkDates.replace("%data%", this.jobs[job].dates);
             $(".work-entry:last").append(formattedDates);
-            var formattedLocation = HTMLworkLocation.replace("%data%", this.jobs[job].location)
+            var formattedLocation = HTMLworkLocation.replace("%data%", this.jobs[job].location);
             $(".work-entry:last").append(formattedLocation);
-            var formattedDescription = HTMLworkDescription.replace("%data%", this.jobs[job].description)
+            var formattedDescription = HTMLworkDescription.replace("%data%", this.jobs[job].description);
             $(".work-entry:last").append(formattedDescription);
         }
     }
@@ -234,11 +251,28 @@ var project = {
             "description": "Installed and configured all required software to turn a baseline Ubuntu Amazon Web Services server into a fully functional web application server, including Apache Web Server and PostgreSQL database server.",
             "images": []
         }
-    ]
+    ],
+    display: function () {
+        for (var project = 0; project < this.projects.length; project++) {
+            $("#projects").append(HTMLprojectStart);
+            var formattedTitle = HTMLprojectTitle.replace("%data%", this.projects[project].title);
+            $(".project-entry:last").append(formattedTitle);
+            var formattedDates = HTMLprojectDates.replace("%data%", this.projects[project].dates);
+            $(".project-entry:last").append(formattedDates);
+            var formattedDescription = HTMLprojectDescription.replace("%data%", this.projects[project].description);
+            $(".project-entry:last").append(formattedDescription);
+            for (var img = 0; img < this.projects[project].images.length; img++) {
+                var formattedImg = HTMLprojectImage.replace("%data%", this.projects[project].images[img]);
+                $(".project-entry:last").append(formattedImg);
+            }
+        }
+    }
 };
 
 bio.display();
 work.display();
+education.display();
+project.display();
 
 $(document).click(function(loc) {
     logClicks(loc.pageX, loc.pageY);
