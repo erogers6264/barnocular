@@ -287,3 +287,5 @@ function locationizer(work_obj) {
 }
 
 console.log(locationizer(work));
+
+$("#mapDiv").append(googleMap);
