@@ -168,7 +168,7 @@ ul {
   display: none;
 }
 
-img {
+.biopic {
   /*Flip*/
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
@@ -181,6 +181,9 @@ img {
   -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
   filter: grayscale(100%);
 
+}
+
+img {
   padding: 10px;
 }
 
