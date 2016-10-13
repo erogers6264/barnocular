@@ -11,7 +11,7 @@ var bio = {
         "twitter": "redothedo",
         "location": "Tucson, AZ, US"
     },
-    "welcomeMessage": "I'm a tenacious MA graduate eager to use my spectrum of education & experience to build snappy web apps.",
+    "welcomeMessage": "I am a highly skilled back-end web developer, incredibly driven fast-learner, and teacher. This resume is populated by JSON objects. ;-)",
     "skills": ["Python", "Linux", "Flask", "CSS", "HTML", "Javascript", "Relational Databases"],
     "biopic": "images/me.jpg",
     display: function () {
