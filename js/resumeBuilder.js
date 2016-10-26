@@ -5,7 +5,7 @@ var bio = {
     "name": "M. Ethan Rogers",
     "role": "Fullstack Web Developer",
     "contacts": {
-        "mobile": "1.915.637.8415",
+        "mobile": "1.520.336.2658",
         "email": "erogers6264@gmail.com",
         "github": "erogers6264",
         "twitter": "redothedo",
