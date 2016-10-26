@@ -230,7 +230,7 @@ var project = {
         {
             "title": "dot-n-box",
             "dates": "2016",
-            "description": "Implemented a scalable hangman game as an API with endpoints that allow anyone to develop a front-end for the game.",
+            "description": "Implemented a scalable hangman game as a Google App Engine RESTful API with endpoints that allow anyone to develop a front-end for the game. Extended the API functionality to include game management, queries for history of moves, email alerts for unfinished games, and a scoreboard system.",
             "images": [],
             "url": ""
         },
@@ -244,7 +244,21 @@ var project = {
         {
             "title": "menumoo",
             "dates": "2015-2016",
-            "description": "Developed a content management system using the Flask framework in Python. Authentication is provided via OAuth and all data is stored within a PostgreSQL database.",
+            "description": "Developed a content management system using the Flask framework in Python. Authentication is provided via OAuth (Facebook and Google+) and all data is stored within a PostgreSQL database. Created a local user permission system to prevent users from editing each others' data.",
+            "images": [],
+            "url": ""
+        },
+        {
+            "title": "erogers6264.github.io",
+            "dates": "2016",
+            "description": "Established an online personal blog using GitHub Pages and the Jekyll static site generator to render posts written in Markdown. Installed the open source theme 'hyde', based on 'poole', for style and layout. Implemented the Disqus commenting system to encourage discussion of posts.",
+            "images": [],
+            "url": ""
+        },
+        {
+            "title": "barnocular",
+            "dates": "2016",
+            "description": "Created a GitHub hosted online resume which uses vanilla Javascript and jQuery to parse and format data stored as JSON objects.",
             "images": [],
             "url": ""
         },
@@ -256,30 +270,9 @@ var project = {
             "url": ""
         },
         {
-            "title": "barnocular",
-            "dates": "2016",
-            "description": "Created a GitHub hosted online resume which uses vanilla Javascript and jQuery to parse my data stored as JSON objects.",
-            "images": [],
-            "url": ""
-        },
-        {
-            "title": "erogers6264.github.io",
-            "dates": "2015",
-            "description": "Established an online personal blog using GitHub Pages and the Jekyll static site generator. Utilized the open source theme hyde for style and layout.",
-            "images": [],
-            "url": ""
-        },
-        {
-            "title": "psychic-lucky-goggles",
-            "dates": "2016",
-            "description": "Created a short script based on an example from 'Automate the Boring Stuff with Python', which opens the first X results of a Google search query in separate tabs.",
-            "images": [],
-            "url": ""
-        },
-        {
             "title": "spotspot",
             "dates": "2015",
-            "description": "Implemented a content management system using the Flask framework with Python and the Google Maps Javascript API to manage parking lot locations.",
+            "description": "University of Arizona Hackathon project: Implemented a content management system using the Flask framework with Python and the Google Maps Javascript API to manage parking lot locations.",
             "images": [],
             "url": ""
         },
@@ -287,6 +280,13 @@ var project = {
             "title": "jortl",
             "dates": "2015",
             "description": "Experimented with the Skeleton CSS framework to create a pleasant and responsive layout for menumoo, a restaurant menu web app.",
+            "images": [],
+            "url": ""
+        },
+        {
+            "title": "psychic-lucky-goggles",
+            "dates": "2015",
+            "description": "Created a short script based on an example from 'Automate the Boring Stuff with Python', which opens the first X results of a Google search query in separate tabs.",
             "images": [],
             "url": ""
         },
