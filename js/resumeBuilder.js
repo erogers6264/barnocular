@@ -121,7 +121,7 @@ var work = {
             "employer": "Universität Leipzig",
             "title": "German Instructor",
             "location": "Leipzig, Germany",
-            "dates": "Summer 2014 & Summer 2015",
+            "dates": "Summers 2014 & 2015",
             "description": "Taught sections of intensive intermediate German for groups of undergraduate study abroad participants. Was responsible for all instruction and assessment. Assisted in study abroad program activity coordination."
         },
         {
