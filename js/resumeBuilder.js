@@ -300,7 +300,7 @@ var project = {
         {
             "title": "coolgermanfilms",
             "dates": "2015",
-            "description": "Created a Python class to model information about my favorite German films. From the class I created objects to populate a website that allows users to easily view their YouTube trailers.",
+            "description": "Created a Python class to model information about my favorite German films. I instantiated objects inheriting from this class to populate a website that allows users to easily view their YouTube trailers.",
             "images": [],
             "url": "https://github.com/erogers6264/coolgermanfilms"
         }
