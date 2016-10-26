@@ -231,25 +231,78 @@ var project = {
             "title": "dot-n-box",
             "dates": "2016",
             "description": "Implemented a scalable hangman game as an API with endpoints that allow anyone to develop a front-end for the game.",
-            "images": []
+            "images": [],
+            "url": ""
         },
         {
             "title": "menumoo-server-config",
             "dates": "2016",
             "description": "Installed and configured all required software to turn a baseline Ubuntu Amazon Web Services server into a fully functional web application server, including Apache Web Server and PostgreSQL database server.",
-            "images": []
+            "images": [],
+            "url": ""
         },
         {
             "title": "menumoo",
             "dates": "2015-2016",
             "description": "Developed a content management system using the Flask framework in Python. Authentication is provided via OAuth and all data is stored within a PostgreSQL database.",
-            "images": []
+            "images": [],
+            "url": ""
         },
         {
             "title": "all-play",
             "dates": "2015",
             "description": "Built a PostgreSQL relational database scheme to store the results of a game tournament. Also provided a number of queries to efficiently report the results of the tournament and determine the winner.",
-            "images": []
+            "images": [],
+            "url": ""
+        },
+        {
+            "title": "barnocular",
+            "dates": "2016",
+            "description": "Created a GitHub hosted online resume which uses vanilla Javascript and jQuery to parse my data stored as JSON objects.",
+            "images": [],
+            "url": ""
+        },
+        {
+            "title": "erogers6264.github.io",
+            "dates": "2015",
+            "description": "Established an online personal blog using GitHub Pages and the Jekyll static site generator. Utilized the open source theme hyde for style and layout.",
+            "images": [],
+            "url": ""
+        },
+        {
+            "title": "psychic-lucky-goggles",
+            "dates": "2016",
+            "description": "Created a short script based on an example from 'Automate the Boring Stuff with Python', which opens the first X results of a Google search query in separate tabs.",
+            "images": [],
+            "url": ""
+        },
+        {
+            "title": "spotspot",
+            "dates": "2015",
+            "description": "Implemented a content management system using the Flask framework with Python and the Google Maps Javascript API to manage parking lot locations.",
+            "images": [],
+            "url": ""
+        },
+        {
+            "title": "jortl",
+            "dates": "2015",
+            "description": "Experimented with the Skeleton CSS framework to create a pleasant and responsive layout for menumoo, a restaurant menu web app.",
+            "images": [],
+            "url": ""
+        },
+        {
+            "title": "puppy-goggles",
+            "dates": "2015",
+            "description": "Created a PostgreSQL database scheme to store data about animals in shelters. Developed efficient queries to derive information about the status of shelters.",
+            "images": [],
+            "url": ""
+        },
+        {
+            "title": "coolgermanfilms",
+            "dates": "2015",
+            "description": "Created a Python class to model information about my favorite German films. From the class I created objects to populate a website that allows users to easily view their YouTube trailers.",
+            "images": [],
+            "url": ""
         }
     ],
     display: function () {
