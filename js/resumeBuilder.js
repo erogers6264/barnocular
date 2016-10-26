@@ -232,77 +232,77 @@ var project = {
             "dates": "2016",
             "description": "Implemented a scalable hangman game as a Google App Engine RESTful API with endpoints that allow anyone to develop a front-end for the game. Extended the API functionality to include game management, queries for history of moves, email alerts for unfinished games, and a scoreboard system.",
             "images": [],
-            "url": ""
+            "url": "https://github.com/erogers6264/dot-n-box"
         },
         {
             "title": "menumoo-server-config",
             "dates": "2016",
             "description": "Installed and configured all required software to turn a baseline Ubuntu Amazon Web Services server into a fully functional web application server, including Apache Web Server and PostgreSQL database server.",
             "images": [],
-            "url": ""
+            "url": "https://github.com/erogers6264/menumoo-server-config"
         },
         {
             "title": "menumoo",
             "dates": "2015-2016",
             "description": "Developed a content management system using the Flask framework in Python. Authentication is provided via OAuth (Facebook and Google+) and all data is stored within a PostgreSQL database. Created a local user permission system to prevent users from editing each others' data.",
             "images": [],
-            "url": ""
+            "url": "https://github.com/erogers6264/menumoo"
         },
         {
             "title": "erogers6264.github.io",
             "dates": "2016",
             "description": "Established an online personal blog using GitHub Pages and the Jekyll static site generator to render posts written in Markdown. Installed the open source theme 'hyde', based on 'poole', for style and layout. Implemented the Disqus commenting system to encourage discussion of posts.",
             "images": [],
-            "url": ""
+            "url": "https://erogers6264.github.io/"
         },
         {
             "title": "barnocular",
             "dates": "2016",
             "description": "Created a GitHub hosted online resume which uses vanilla Javascript and jQuery to parse and format data stored as JSON objects.",
             "images": [],
-            "url": ""
+            "url": "https://erogers6264.github.io/barnocular/"
         },
         {
             "title": "all-play",
             "dates": "2015",
             "description": "Built a PostgreSQL relational database scheme to store the results of a game tournament. Also provided a number of queries to efficiently report the results of the tournament and determine the winner.",
             "images": [],
-            "url": ""
+            "url": "https://github.com/erogers6264/all-play"
         },
         {
             "title": "spotspot",
             "dates": "2015",
             "description": "University of Arizona Hackathon project: Implemented a content management system using the Flask framework with Python and the Google Maps Javascript API to manage parking lot locations.",
             "images": [],
-            "url": ""
+            "url": "https://github.com/erogers6264/spotspot"
         },
         {
             "title": "jortl",
             "dates": "2015",
             "description": "Experimented with the Skeleton CSS framework to create a pleasant and responsive layout for menumoo, a restaurant menu web app.",
             "images": [],
-            "url": ""
+            "url": "https://github.com/erogers6264/jortl"
         },
         {
             "title": "psychic-lucky-goggles",
             "dates": "2015",
             "description": "Created a short script based on an example from 'Automate the Boring Stuff with Python', which opens the first X results of a Google search query in separate tabs.",
             "images": [],
-            "url": ""
+            "url": "https://github.com/erogers6264/psychic-lucky-goggles"
         },
         {
             "title": "puppy-goggles",
             "dates": "2015",
             "description": "Created a PostgreSQL database scheme to store data about animals in shelters. Developed efficient queries to derive information about the status of shelters.",
             "images": [],
-            "url": ""
+            "url": "https://github.com/erogers6264/puppy-goggles"
         },
         {
             "title": "coolgermanfilms",
             "dates": "2015",
             "description": "Created a Python class to model information about my favorite German films. From the class I created objects to populate a website that allows users to easily view their YouTube trailers.",
             "images": [],
-            "url": ""
+            "url": "https://github.com/erogers6264/coolgermanfilms"
         }
     ],
     display: function () {
