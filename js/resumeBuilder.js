@@ -258,7 +258,7 @@ var project = {
         {
             "title": "barnocular",
             "dates": "2016",
-            "description": "Created a GitHub hosted online resume which uses vanilla Javascript and jQuery to parse and format data stored as JSON objects.",
+            "description": "Created this GitHub hosted online resume which uses vanilla Javascript and jQuery to parse and format data stored as JSON objects.",
             "images": [],
             "url": "https://erogers6264.github.io/barnocular/"
         },
