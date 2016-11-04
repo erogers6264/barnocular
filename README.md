@@ -1,6 +1,12 @@
-# Project Details
-## How do I complete this project?
-Review the Online Resume [Project Rubric](https://review.udacity.com/?_ga=1.189245867.12280332.1465333852#!/projects/2962818615/rubric).
+# Barnocular
+## A resume for those who want the whole story.
+[This website](https://erogers6264.github.io/barnocular) attempts to document everything I've ever done. Some would call it my 'master' resume, I call it a barnocular into what I've done to become who I am today.
+
+1. Don't care that I worked at Petsmart 10 years ago? You're looking at the wrong resume. In the future, I will fork this project and create various resumes targeting specific positions I am interested in. I will prim and trim, like a good prospective employee, but I hope that anyone seriously considering hiring me will take a hard look at the various roles this website documents.
+
+2. I built this website with the help of Udacity's Intro to JavaScript course. The resume data is stored in JavaScript objects, which format and display themselves when the web page is loaded. Learning basic JavaScript was pretty painless after having worked with Python so much. It was semicolons, 'var', and brackets that I had to get used to.
+
+3. The JavaScript objects populate provided HTML snippets using JavaScript's built-in
 
 1. In this project you will store your resume data in four javaScript objects according to the schema given below. As is often the case when leveraging an API, the objects must follow the schema exactly. All properties must be present and have real or fake values. The names must match those in the schema (note that object and property names are case-sensitive). All property values should be of the data-type given for the property in the schema. For example if the data-type is given as an array, it is not acceptable to use a string as a value for that property.
 2. Once you've created your javaScript objects, you will write the code needed to display all of the resume data contained within these objects in your resume.
