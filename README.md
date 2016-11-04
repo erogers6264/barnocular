@@ -87,7 +87,7 @@ The resume has four distinct sections: work, education, projects and a header wi
 3. The resume includes an interactive map. I did the following to add it.
   * In resumeBuilder.js, I appended the googleMap string to `<div id=”mapDiv”>`.
   * In index.html, I uncommented the Google script element: `<script type="text/JavaScript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>`
-  * In helper.js, at the bottom of the file, I uncommented code to initialize map and set fitBounds.
+  * In helper.js, at the bottom of the file, I uncommented included code to initialize map and set fitBounds.
 4. All of my code for adding elements to the resume is contained within functions.
 5. As described in the JavaScript object schema, each 'display' function is encapsulated within the JavaScript object it displays in the resume. For instance, my 'display' function for appending 'work' experience data to the resume is encapsulated within the 'work' JavaScript object.
 6. It’s possible to make additional information show up when you click on the pins in the map. Check out line 174 in helper.js and the Google Maps API.
