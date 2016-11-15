@@ -1,0 +1,131 @@
+{
+	"bio": {
+		"name": "Mark 'Ethan' Rogers",
+		"role": "Backend Web Developer",
+		"contacts": {
+			"mobile": "1.520.336.2658",
+			"email": "erogers6264@gmail.com",
+			"github": "erogers6264",
+			"location": "Tucson, AZ, US"
+		},
+		"summary": "I am a skilled backend web developer, driven quick-learner, and German teacher.",
+		"skills": ["PostgreSQL", "SQL/NoSQL", "SQLAlchemy", "Google Datastore", "Javascript & JSON", "Python", "Microsoft Excel", "Linux", "Flask", "CSS", "HTML", "Git/GitHub", "Vagrant", "Sublime Text & Emacs"]
+	},
+	"education": {
+		"schools": [
+			{
+				"name": "University of Arizona",
+				"location": "Tucson, AZ, US",
+				"degree": "Master of Arts",
+				"majors": ["German Studies"],
+				"minors": [],
+				"dates": "2013-2015",
+				"url": "http://www.arizona.edu",
+				"awards": "Outstanding Graduate Assistant in Teaching"
+			},
+			{
+				"name": "University of Arizona",
+				"location": "Tucson, AZ, US",
+				"degree": "Bachelor of Arts",
+				"majors": ["German Studies", "Linguistics"],
+				"minors": ["Spanish"],
+				"dates": "2008-2012",
+				"url": "http://www.arizona.edu"
+			}
+		],
+		"onlineCourses": [
+			{
+				"title": "Fullstack Web Developer Nanodegree",
+				"school": "Udacity",
+				"dates": "2015-2016",
+				"url": "http://www.udacity.com"
+			}
+		]
+	},
+	"development": {
+		"projects": [
+			{
+				"title": "dot-n-box",
+				"dates": "2016",
+				"description": "Implemented a scalable hangman game as a Google App Engine RESTful API with endpoints that allow anyone to develop a front-end for the game. Extended the API functionality to include game management, queries for history of moves, email alerts for unfinished games, and a scoreboard system.",
+				"url": "https://github.com/erogers6264/dot-n-box"
+			},
+			{
+				"title": "menumoo-server-config",
+				"dates": "2016",
+				"description": "Installed and configured all required software to turn a baseline Ubuntu Amazon Web Services server into a fully functional web application server, including Apache Web Server and PostgreSQL database server.",
+				"url": "https://github.com/erogers6264/menumoo-server-config"
+			},
+			{
+				"title": "menumoo",
+				"dates": "2015-2016",
+				"description": "Developed a content management system using the Flask framework in Python. Authentication is provided via OAuth (Facebook and Google+) and all data is stored within a PostgreSQL database. Created a local user permission system to prevent users from editing each others' data.",
+				"url": "https://github.com/erogers6264/menumoo"
+			},
+			{
+				"title": "barnocular",
+				"dates": "2016",
+				"description": "Created this GitHub hosted online resume which uses vanilla Javascript and jQuery to parse and format data stored as JSON objects.",
+				"url": "https://erogers6264.github.io/barnocular/"
+			},
+			{
+				"title": "all-play",
+				"dates": "2015",
+				"description": "Built a PostgreSQL relational database scheme to store the results of a game tournament. Also provided a number of queries to efficiently report the results of the tournament and determine the winner.",
+				"url": "https://github.com/erogers6264/all-play"
+			},
+			{
+				"title": "spotspot",
+				"dates": "2015",
+				"description": "University of Arizona Hackathon project: Implemented a content management system using the Flask framework with Python and the Google Maps Javascript API to manage parking lot locations.",
+				"url": "https://github.com/erogers6264/spotspot"
+			}
+		]
+	},
+	"work": {
+		"jobs": [
+			{
+				"employer": "Native Grill & Wings",
+				"title": "Host & Expo",
+				"location": "Tucson, AZ",
+				"dates": "in progress",
+				"description": "Provided an excellent first impression to guests, explained the daily specials, and performed regular restaurant tasks such as handling to-go orders and cleaning."
+			},
+			{
+				"employer": "Walden Grove High School/Sahuarita School District",
+				"title": "Long-term Substitute German Teacher",
+				"location": "Sahuarita, AZ",
+				"dates": "2016",
+				"description": "Acted as a stand-in instructor for four sections of German 1. Was responsible for all planning, instruction and assessment. Showed students that they can also learn outside when weather permits."
+			},
+			{
+				"employer": "Universität Leipzig",
+				"title": "German Instructor",
+				"location": "Leipzig, Germany",
+				"dates": "Summers 2014 & 2015",
+				"description": "Taught sections of intensive intermediate German for groups of undergraduate study abroad participants. Was responsible for all instruction and assessment. Assisted in study abroad program activity coordination."
+			},
+			{
+				"employer": "The University of Arizona",
+				"title": "German Instructor",
+				"location": "Tucson, AZ",
+				"dates": "2013-2015",
+				"description": "Taught multiple sections of university level German 101, 102, 201, and 202 over four semesters. Was responsible for all planning, instruction and assessment. Helped make our language curriculum more awesome. Received top ratings on ratemyprofessors."
+			},
+			{
+				"employer": "Intuit Inc.",
+				"title": "Technical Support Representative",
+				"location": "Tucson, AZ",
+				"dates": "2012-2013",
+				"description": "Delighted customers by empathizing with customers and understanding their pain points. Played a crucial role in improving Intuit products."
+			},
+			{
+				"employer": "University of Arizona Residence Life",
+				"title": "Resident Assistant",
+				"location": "Tucson, AZ",
+				"dates": "2010-2012",
+				"description": "Facilitated the social, academic, and personal adjustment of students to the residence halls and University. Developed a sense of community among residents as members of a floor, residents of a hall, and active participants in the residence life system."
+			}
+		]
+	}
+}
